@@ -1,0 +1,340 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 240);
+}
+
+.name {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.name h1 {
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: 0px;
+}
+
+.name p {
+    margin-top: 14px;
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+}
+
+#n1 {
+    color: white;
+    background-color: black;
+    padding: 4px 9px;
+    margin-left: 2px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+/* //////////////// SECTION 1 /////////////////// */
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+/* ========S1D1 and div1========================= */
+.s1d1 {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+}
+
+.div1 img {
+    width: 100%;
+    height: 280px;
+}
+
+.div1 {
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.div1text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px;
+    height: 280px;
+}
+
+.div1 h3 {
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: 0px 0px 1.5px black;
+}
+
+.div1 h4 {
+    font-size: 18px;
+    font-weight: 100;
+    color: grey;
+}
+
+.div1 p {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(65, 64, 64);
+}
+
+#comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#comment button {
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 15px;
+    border: 1px rgb(199, 199, 199) solid;
+}
+
+#comment p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#c1 {
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    margin-left: 5px;
+}
+
+/* ==========s1d2 and div3======================= */
+
+.s1d2 {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.div3text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 165px;
+    text-align: justify;
+    padding: 12px 20px;
+}
+
+.div3 h3 {
+    font-size: 20px;
+    text-shadow: 0px 0px 1px black;
+    color: black;
+    font-weight: 100;
+}
+
+.div3 p {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(65, 64, 64);
+}
+
+/* ========== div 4 ============================ */
+.div4 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.div4 h2 {
+    font-size: 20px;
+    font-weight: 100;
+    background-color: rgb(240, 240, 240);
+    padding: 20px 20px;
+    height: 70px;
+    color: rgb(40, 40, 40);
+}
+
+.div4 img {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+#d4item {
+    display: flex;
+    border-bottom: 1px rgb(197, 197, 197) solid;
+    height: 80px;
+    align-items: center;
+    padding-left: 20px;
+    background-color: white;
+    padding: 5px 20px;
+    color: rgb(60, 60, 60);
+}
+
+#d4item h4 {
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+#d4item p {
+    font-size: 16px;
+}
+
+/* ============div 5 ========================== */
+.div5 {
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 7px black;
+}
+
+.div5 h2 {
+    font-size: 20px;
+    font-weight: 100;
+    background-color: rgb(240, 240, 240);
+    padding: 20px 20px;
+    height: 70px;
+    color: rgb(40, 40, 40);
+}
+
+.div5text {
+    padding: 10px 25px 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.div5 li {
+    display: inline;
+    color: rgb(52, 51, 51);
+    background-color: rgb(238, 237, 237);
+    margin: 0px 5px;
+    padding: 3px 7px;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+/* ====================FOOTER================== */
+.footer {
+    width: 100%;
+    background-color: rgb(74, 72, 72);
+    padding: 30px 0px 50px 20px;
+}
+
+#btn1 {
+    background-color: rgb(68, 68, 68);
+    color: rgb(134, 134, 134);
+    font-size: 16px;
+    padding: 12px 25px;
+    border: 1px rgb(93, 90, 90) solid;
+}
+
+#btn1:hover {
+    color: rgb(50, 48, 48);
+    background-color: rgb(104, 102, 102);
+}
+
+#btn2 {
+    background-color: black;
+    color: white;
+    padding: 13px 25px;
+    font-size: 16px;
+    border: 0px;
+}
+
+#btn2:hover {
+    color: black;
+    background-color: rgb(210, 208, 208);
+}
+
+@media screen and (max-width:1028px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s1d1,
+    .s1d2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .div1 {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .div3text {
+        height: fit-content;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .div1text {
+        height: fit-content;
+        font-size: smaller;
+    }
+    .div1 img{
+        width: 100%;
+        height: 200px;
+    }
+    #comment{
+        padding: 5px 0px ;
+    }
+    #comment button{
+        padding: 7px 7px;
+        font-size: 11px;
+    }
+    #comment p{
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    .div1text{
+        padding: 0px 5px;
+    }
+    .section1{
+        padding: 0px 5px;
+        justify-content: space-evenly;
+    }
+
+}
